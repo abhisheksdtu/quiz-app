@@ -20,9 +20,9 @@ let q2 = new createQuestionArr(
 
 // QUESTION 3
 let q3 = new createQuestionArr(
-	'What is the result of the following code snippet? <br> <pre> window.location === document.location </pre>',
-	['False', 'True', '1', '0'],
-	2
+	'How do you find the number with the highest value of x and y?',
+	['top(x,y)', 'Math.ceil(x,y)', 'ceil(x,y)', 'Math.max(x,y)'],
+	4
 );
 
 // QUESTION 4

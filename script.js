@@ -130,7 +130,7 @@ function renderScore() {
 	let path = `<svg viewBox="0 0 36 36" class="circular-chart ${scoreColor}">
 	<path class="circle-bg" d="M18 2.0845     a 15.9155 15.9155 0 0 1 0 31.831     a 15.9155 15.9155 0 0 1 0 -31.831"/>
 	<path class="circle" stroke-dasharray="${scorePercent}, 100" d="M18 2.0845     a 15.9155 15.9155 0 0 1 0 31.831     a 15.9155 15.9155 0 0 1 0 -31.831"/>
-	<text x="19" y="21" id="percentage">${scorePercent}</text>     
+	<text x="19" y="21" id="percentage">${scorePercent}%</text>     
 	</svg>`;
 	scoreDiv.innerHTML += path;
 
